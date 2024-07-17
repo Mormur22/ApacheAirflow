@@ -1,0 +1,15 @@
+
+version: 2
+models:
+    - name: ods_fact_ds_045409
+      description: A starter dbt model
+      config:
+        materialized: table
+        schema: SH_ODS
+        unique_key: PK_ODS_FACT_DS_045409
+      columns:
+        - name: PK_ODS_FACT_DS_045409
+          description: "PK"
+          tests:
+            - unique
+            - not_null

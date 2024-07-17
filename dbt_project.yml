@@ -37,16 +37,12 @@ clean-targets:         # directories to be removed by `dbt clean`
 
 models:
   my_project:
-
     01_ods:
-      schema: SH_STG
-
+      schema: SH_ODS
     02_dwh:
       schema: SH_DWH
-
     03_trn:
       schema: SH_TRN
-
     04_rep:
       schema: SH_REP
 

@@ -3,23 +3,23 @@ version: 2
 
 models:
     - name: my_first_dbt_model
-        description: "A starter dbt model"
-        columns:
+      description: "A starter dbt model"
+      columns:
             - name: id
-                description: "The primary key for this table"
-                tests:
-                    - unique
-                    - not_null
-        materialized: table
+              description: "The primary key for this table"
+              tests:
+                - unique
+                - not_null
+      materialized: table
 
     - name: my_second_dbt_model
-        description: "A starter dbt model"
-        columns:
+      description: "A starter dbt model"
+      columns:
             - name: id
-                description: "The primary key for this table"
-                tests:
-                    - unique
-                    - not_null
-        materialized: table
+              description: "The primary key for this table"
+              tests:
+                - unique
+                - not_null
+      materialized: table
         
 

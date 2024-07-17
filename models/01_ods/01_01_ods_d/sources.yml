@@ -1,9 +1,12 @@
 version: 2
 
 sources:
-  - name: jaffle_shop
-    database: raw  
-    schema: jaffle_shop  
+  - name: sh_stg
+    database: generandidevdb  
+    schema: sh_stg  
     tables:
-      - name: orders
-      - name: customers
+      - name: ds_045409
+      - name: subastas_castilla_y_leon_anual
+      - name: subastas_galicia_cuadro_apertura
+      - name: subastas_galicia_cuadro_resumen
+      - name: properties
